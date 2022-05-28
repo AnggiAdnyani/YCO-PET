@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="page1.css">
+    <title>Home</title>
+</head>
+<body>
+       <section>
+       <!-- Navbar -->
+    <nav>
+        <div class="logo">
+            <h4> YCO PET </h4>
+        </div>
+
+        <ul>
+            <li><a href="/page1.html">Home</a></li>
+            <li><a href="/page2.html">Adopt Me</a></li>
+            <li><a href="/page3.html">News</a></li>
+            <li><a href="#">About Us </a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+
+        <div class="menu-toggle">
+            <input type="checkbox"/>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+        <!-- IMG Header-->
+            <div class = "img-header">
+                <img src="img/ABOUT (1).png" alt="">
+                <h1> WELLCOME TO <span style="color: #0C67AA ;">  YCO PET </span> </h1>
+                <div class=" desc-header"> 
+                    <p>We care all about dogs. 
+                    Hello dog lover friends. YCO PET comes with various types 
+                    of dogs that are ready for you to adopt, not only that 
+                    YCO PET also provides various facilities for your dog care. 
+                    Here we also sell a variety of supplies for your dog needs.</p> 
+                </div>
+            </div>
+
+
+    <!-- ADOPT-->
+    <div class="adopt-container">
+        <h2> PET LOVE (ADOPT ME) </h2>
+        <div class="adopt-img-container"> 
+            <div class="img-adopt-container"> 
+                <img src="img/Rectangle 2 (1).png" alt="">
+            </div>
+            <div class="img-adopt-container"> 
+                <img src="img/Rectangle 3 (2).png" alt="">
+            </div>
+            <div class="img-adopt-container"> 
+                <img src="img/Rectangle 4 (1).png" alt="">
+            </div>
+            <div class="img-adopt-container"> 
+                <img src="img/Rectangle 5 (10).png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!--Supplies-->
+    <div class="sup-container">
+        <h2>Pet Supplies</h2>
+        <div class="content-sup">
+            <div class="container-img">
+                <div class="img-sup">
+                    <img src="img/Rectangle 5.png" alt="">
+                </div>
+                <div class="desc-sup">
+                    <h3>DOG FOOD</h3>
+                </div>
+            </div>
+
+            <div class="container-img">
+                <div class="img-sup">
+                    <img src="img/Rectangle 5 (1).png" alt="">
+                </div>
+                <div class="desc-sup">
+                    <h3>Accesories</h3>
+                </div>
+            </div>
+
+            <div class="container-img">
+                <div class="img-sup">
+                    <img src="img/Rectangle 5 (4).png" alt="">
+                </div>
+                <div class="desc-sup">
+                    <h3>Medicine</h3>
+                </div>
+            </div>
+
+            <div class="container-img">
+                <div class="img-sup">
+                    <img src="img/Rectangle 5 (3).png" alt="">
+                </div>
+                <div class="desc-sup">
+                    <h3>Dog Bed</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container-footer">
+            <div class="about">
+                <h2>ABOUT US</h2>
+                <p>Hello dog lover friends. YCO PET comes with various types 
+                    of dogs that are ready for you to adopt, not only that 
+                    YCO PET also provides various facilities for your dog care. 
+                    Here we also sell a variety of supplies for your dog needs.
+                </p>
+            </div>
+            <div class="contact">
+                <h2>CONTACT US</h2>
+                <p> Gmail : Adopt23@gmail.com</p>
+                <p>Instagram : @adopt_23</p>
+                <p> Whatsapp  : +62 8345-9056-6090</p>
+            </div>
+        </div>
+    </footer>
+</section>
+
+
+</body>
+
+<script>
+    const menuToggle = document.querySelector(".menu-toggle input");
+    const nav = document.querySelector("nav ul");
+    
+    menuToggle.addEventListener("click", function () {
+      nav.classList.toggle("slide");
+    });
+    
+    </script>
+    
+</html>
